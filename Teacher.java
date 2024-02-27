@@ -31,6 +31,11 @@ public class Teacher {
 
     }
 
+    public void salaryPaid(int salary) {
+
+        salaryPaid +=salary;
+    }
+
     public int getSalaryPaid() {
 
         return salaryPaid;
@@ -43,5 +48,9 @@ public class Teacher {
         
     }
 
+    public String toString() {
+
+        return name;
+    }
 
 }

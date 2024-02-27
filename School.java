@@ -60,4 +60,6 @@ public class School {
 
         return earning - Spent;
     }
+
+    
 }
